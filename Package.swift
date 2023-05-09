@@ -5,6 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "SwiftPlus",
+    platforms: [.iOS(.v16)],
     products: [
         .library(
             name: "SwiftPlus",
