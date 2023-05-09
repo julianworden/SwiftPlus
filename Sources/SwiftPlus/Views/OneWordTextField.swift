@@ -14,7 +14,7 @@ public struct OneWordTextField: View {
 
     let placeholder: String
 
-    init(_ placeholder: String, text: Binding<String>) {
+    public init(_ placeholder: String, text: Binding<String>) {
         _text = Binding(projectedValue: text)
         self.placeholder = placeholder
     }
